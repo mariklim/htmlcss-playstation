@@ -1,8 +1,14 @@
 /* Common */
 body{
-
+    color: white;
     font-family: Arial, sans-serif;
     position: relative;
+}
+.card{
+    border: 0;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 20px 0px;
 }
  /* Colors */
  .bg_white{
@@ -11,6 +17,8 @@ body{
  .bg_red{
      background-color: #cd3d0f;
  }
+
+ 
 /* Typo */
 h2{
     font-size: 30px;
@@ -74,16 +82,13 @@ main{
     color: white;
 }
 
-.card{
-    border-radius: 10px;
-    overflow: hidden;
-    margin: 20px 0px;
-}
-
 .album_game{
     margin-bottom: 40px;
 }
 /*PS-5*/
+#PS-5{
+    color: black;
+}
 #PS-5 h6{
     color: #0072ce;
     margin-bottom: 0px;
@@ -105,6 +110,13 @@ main{
     background-position: bottom;
     background-image: url("../img/it-takes-two-hero-banner-desktop.jpg");
 }
+
+/* new releases*/
+.new_releases{
+    background-color: #1f1f1f;
+}
+
+
 /* Footer */
 
 /* Hover effects */
