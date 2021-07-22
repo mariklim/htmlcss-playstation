@@ -94,8 +94,19 @@ main{
     margin-top: 0px;
 }
 
+.console img{
+    max-width: 500px;
+    width: 100%;
+}
+.console{
+    position: relative;
+    bottom:100px;
+}
 
+.ps5-top{
+    margin-bottom: 100px;
 
+}
 /* Footer */
 
 /* Hover effects */
