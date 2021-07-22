@@ -1,13 +1,18 @@
 /* Common */
 body{
+
     font-family: Arial, sans-serif;
+    position: relative;
 }
  /* Colors */
  .bg_white{
      background-color: white;
  }
 /* Typo */
-
+h2{
+    font-size: 30px;
+    margin: 20px 0;
+}
 /* Buttons*/
 .btn{
     border-radius: 20px;
@@ -18,6 +23,14 @@ body{
 }
 
 /* Header */
+
+header{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 10;
+   
+}
 .header_top{
     background-color: black;
 }
@@ -26,6 +39,35 @@ body{
 }
 
 /* Main*/
+main{
+  
+    margin-top: 118px;
+    height: 200px;
+}
+/* Hero */
+#hero{
+    min-height: 650px;
+    background-image: url(../img/returnal-listing-thumb-01-ps5.jpg);
+    background-size:cover;
+    background-position-x: 80%;
+    color: white;
+    display: flex;
+    align-items:center;
+}
+.hero_content img{
+    max-width: 250px;
+    width: 100%;
+}
+
+.small_box{
+    margin: 50px;
+    display: flex;
+    align-items: flex-end;
+    min-height: 600px;
+}
+
+.hero_content{
+}
 
 /* Footer */
 
