@@ -2,12 +2,28 @@
 body{
     font-family: Arial, sans-serif;
 }
-
+ /* Colors */
+ .bg_white{
+     background-color: white;
+ }
 /* Typo */
 
 /* Buttons*/
+.btn{
+    border-radius: 20px;
+}
+.btn_search{
+    border: 0;
+    background-color: transparent;
+}
 
 /* Header */
+.header_top{
+    background-color: black;
+}
+.header_top_logo img{
+    width: 75px;
+}
 
 /* Main*/
 
