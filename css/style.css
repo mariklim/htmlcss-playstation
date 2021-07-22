@@ -8,6 +8,9 @@ body{
  .bg_white{
      background-color: white;
  }
+ .bg_red{
+     background-color: #cd3d0f;
+ }
 /* Typo */
 h2{
     font-size: 30px;
@@ -29,7 +32,6 @@ header{
     width: 100%;
     top: 0;
     z-index: 10;
-   
 }
 .header_top{
     background-color: black;
@@ -65,10 +67,19 @@ main{
     align-items: flex-end;
     min-height: 600px;
 }
-
-.hero_content{
+.hero_content button{
+    color: white;
 }
 
+
+.card{
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 20px 0px;
+  
+   
+   
+}
 /* Footer */
 
 /* Hover effects */
