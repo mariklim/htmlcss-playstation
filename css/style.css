@@ -15,6 +15,11 @@ body{
 h2{
     font-size: 30px;
     margin: 20px 0;
+    font-weight: 600;
+}
+h6{
+    font-size: 13px;
+    font-weight: 600;
 }
 /* Buttons*/
 .btn{
@@ -71,15 +76,26 @@ main{
     color: white;
 }
 
-
 .card{
     border-radius: 10px;
     overflow: hidden;
     margin: 20px 0px;
-  
-   
-   
 }
+
+.album_game{
+    margin-bottom: 40px;
+}
+/*PS-5*/
+#PS-5 h6{
+    color: #0072ce;
+    margin-bottom: 0px;
+}
+#PS-5 h2{
+    margin-top: 0px;
+}
+
+
+
 /* Footer */
 
 /* Hover effects */
