@@ -52,26 +52,24 @@ main{
     height: 200px;
 }
 /* Hero */
-#hero{
+.hero{
     min-height: 650px;
     background-image: url(../img/returnal-listing-thumb-01-ps5.jpg);
     background-size:cover;
     background-position-x: 80%;
     color: white;
     display: flex;
-    align-items:center;
+    align-items:flex-end;
+}
+
+.hero_content{
+    padding-bottom: 60px;
 }
 .hero_content img{
     max-width: 250px;
     width: 100%;
 }
 
-.small_box{
-    margin: 50px;
-    display: flex;
-    align-items: flex-end;
-    min-height: 600px;
-}
 .hero_content button{
     color: white;
 }
@@ -98,14 +96,14 @@ main{
     max-width: 500px;
     width: 100%;
 }
-.console{
-    position: relative;
-    bottom:100px;
+#console_h2{
+    padding-top: 80px;
 }
 
-.ps5-top{
-    margin-bottom: 100px;
-
+/* subscription */
+.hero.subscription{
+    background-position: bottom;
+    background-image: url("../img/it-takes-two-hero-banner-desktop.jpg");
 }
 /* Footer */
 
