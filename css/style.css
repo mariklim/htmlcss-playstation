@@ -6,7 +6,6 @@ body{
 }
 .card{
     border: 0;
-    border-radius: 10px;
     overflow: hidden;
     margin: 20px 0px;
 }
@@ -129,25 +128,42 @@ main{
 
 /* Sales */
 
-#sales{
+#sales-top{
     background-color: #bebcbb;
 
 }
-#sales .hero_content{
+#sales-top .hero_content{
   padding: 100px 0;
-  
 }
 .sale_img{
     height: 100%;
     background-image: url("../img/ps-plus-april-monthly-games-featured-image-block.png");
     background-size: cover;
-  
 }
-
-
-#sales button{
+#sales-top button{
     color: #2d64e6;
 }
+/* Sales-bottom */
+#sales-bottom{
+    color: black;
+}
+
+/* PS now */
+#play-now{
+    background-color: #161c3b;
+}
+.play-now_img img{
+    width: 400px;
+}
+
+#play-now .hero_content{
+    padding: 70px 0;
+}
+
+
+
+
+
 /* Footer */
 
 /* Hover effects */
