@@ -65,10 +65,10 @@ main{
 }
 /* Hero */
 .hero{
-    min-height: 650px;
+    padding: 250px 0 50px 0;
     background-image: url(../img/jumbo-bg.png);
     background-size:cover;
-    background-position:center;
+    background-position:top center;
     color: white;
     display: flex;
     align-items:flex-end;
