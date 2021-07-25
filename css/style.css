@@ -58,9 +58,7 @@ header{
 
 /* Main*/
 main{
-  
-    margin-top: 118px;
-    height: 200px;
+    padding-top: 116px;
 }
 /* Hero */
 .hero{
@@ -170,8 +168,44 @@ main{
     margin: auto;
 }
 
-
-
 /* Footer */
+/* footer top */
+footer{
+    background-color: #00439c;
+    padding: 40px 0;
+}
+footer a{
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+}
+.country_icon {
+    display: block;
+    margin: 40px 0px;
+}
+.country_icon img{
+    height: 20px;
+    padding-right: 10px;
+    vertical-align: middle;
+}
 
+.footer_links li{
+    list-style: none;
+}
+
+/* footer bottom */
+.copyright {
+    margin-top: 40px;
+}
+.copyright img{
+    height: 35px;
+}
+
+.copyright p{
+    margin-top: 15px;
+    font-size: 13px;
+}
+.copyright span a{
+    text-decoration: underline;
+}
 /* Hover effects */
