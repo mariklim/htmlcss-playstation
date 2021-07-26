@@ -28,6 +28,7 @@ body{
  
 /* Typo */
 h2{
+    color: #1f1f1f;
     font-size: 30px;
     margin: 20px 0;
     font-weight: 600;
@@ -35,6 +36,20 @@ h2{
 h6{
     font-size: 13px;
     font-weight: 600;
+}
+
+.hero_content p{
+    font-size: 14px;
+    margin: 40px 0;
+}
+.hero_content h2{
+    color:white;
+}
+
+.p_gray{
+    color: #9c9c9c;
+    font-size: 16px;
+    
 }
 /* Buttons*/
 .btn{
@@ -67,6 +82,12 @@ header{
     width: 10px;
     vertical-align: middle;
 }
+.navbar-light .navbar-nav .nav-link{
+    color:black;
+}
+.header_bottom a, .header_bottom .btn-dark {
+    font-size: 15px;
+}
 
 /* Main*/
 main{
@@ -87,7 +108,7 @@ main{
     padding-bottom: 60px;
 }
 .hero_content img{
-    max-width: 250px;
+    max-width: 230px;
     width: 100%;
 }
 
@@ -111,10 +132,14 @@ main{
 }
 
 .console img{
-    max-width: 500px;
-    width: 100%;
+    width: 70%;
 }
 
+.console.text-center p{
+    color:#1f1f1f;
+    font-size: 13px;
+    padding: 10px 0;
+}
 
 /* subscription */
 .hero.subscription{
