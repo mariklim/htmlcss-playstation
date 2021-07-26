@@ -9,6 +9,9 @@ body{
     margin: 20px 0;
 }
 
+.registered{
+    font-size: 12px;
+}
 .card.card_radius{
     border-radius: 10px;
     overflow: hidden;
@@ -54,6 +57,7 @@ h6{
 /* Buttons*/
 .btn{
     border-radius: 20px;
+    font-size: 14px;
 }
 .btn_search{
     border: 0;
@@ -85,9 +89,7 @@ header{
 .navbar-light .navbar-nav .nav-link{
     color:black;
 }
-.header_bottom a, .header_bottom .btn-dark {
-    font-size: 15px;
-}
+
 
 /* Main*/
 main{
@@ -184,7 +186,7 @@ main{
     color: black;
 }
 
-/* PS now */
+/* PS playnow */
 #play-now{
     background-color: #161c3b;
 }
@@ -192,17 +194,21 @@ main{
     width: 400px;
 }
 
+#play-now button{
+    color:black;
+}
 #play-now .hero_content{
     padding: 70px 0;
 }
 
 /* Social */
 #social{
+    padding: 50px 0;
     color: black;
 }
 
 .my_container_small{
-    max-width: 400px;
+    max-width: 500px;
     margin: auto;
 }
 
@@ -228,6 +234,7 @@ footer a{
 }
 
 .footer_links li{
+    margin: 10px 0;
     list-style: none;
 }
 
