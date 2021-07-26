@@ -141,10 +141,14 @@ main{
     padding: 10px 0;
 }
 
+.console_inactive{
+    opacity: 0.5;
+}
 /* subscription */
 .hero.subscription{
     background-position: bottom;
     background-image: url("../img/it-takes-two-hero-banner-desktop.jpg");
+    margin-top: 30px;
 }
 
 /* new releases*/
