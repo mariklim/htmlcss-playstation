@@ -6,8 +6,12 @@ body{
 }
 .card{
     border: 0;
+    margin: 20px 0;
+}
+
+.card.card_radius{
+    border-radius: 10px;
     overflow: hidden;
-    margin: 20px 0px;
 }
  /* Colors */
  .bg_white{
@@ -54,6 +58,14 @@ header{
 }
 .header_top_logo img{
     width: 75px;
+}
+
+.header_bottom .dropdown-toggle::after{
+    border: none;
+    content:url("../img/chevron-down-solid.svg");
+    display: inline-block;
+    width: 10px;
+    vertical-align: middle;
 }
 
 /* Main*/
