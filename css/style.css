@@ -16,7 +16,7 @@ body{
     border-radius: 10px;
     overflow: hidden;
 }
- /* Colors */
+ /* BG Colors */
  .bg_white{
      background-color: white;
  }
@@ -32,6 +32,26 @@ body{
     background-color:#2d64e6;
 }
  
+ /* Font's Colors*/
+ .navbar-light,
+ .navbar-nav,
+ .nav-link,
+ #PS-5,
+ #sales-bottom,
+ #PS-4,
+ #play-now button,
+ #social{
+    color:black;
+}
+.hero,
+.hero_content h2,
+.hero_content button,
+ #PS-5 button,
+ #PS-4 button,
+ footer a{
+    color:white;
+}
+
 /* Typo */
 h2{
     color: #1f1f1f;
@@ -48,9 +68,7 @@ h6{
     font-size: 14px;
     margin: 40px 0;
 }
-.hero_content h2{
-    color:white;
-}
+
 
 .p_gray{
     color: #9c9c9c;
@@ -88,9 +106,7 @@ header{
     width: 10px;
     vertical-align: middle;
 }
-.navbar-light .navbar-nav .nav-link{
-    color:black;
-}
+
 
 
 /* Main*/
@@ -103,7 +119,6 @@ main{
     background-image: url(../img/jumbo-bg.png);
     background-size:cover;
     background-position:top center;
-    color: white;
     display: flex;
     align-items:flex-end;
 }
@@ -113,10 +128,6 @@ main{
     width: 100%;
 }
 
-.hero_content button{
-    color: white;
-}
-
 .album_game{
     margin-bottom: 40px;
 }
@@ -124,23 +135,18 @@ main{
 .album_game_select{
     border: 4px solid #0072ce;
     border-style: double;
+}
 
-    
-}
 /*PS-5*/
-#PS-5{
-    color: black;
-}
 #PS-5 h6{
     color: #0072ce;
     margin-bottom: 0px;
 }
+
 #PS-5 h2{
     margin-top: 0px;
 }
-#PS-5 button{
-    color:white;
-}
+
 .console img{
     width: 70%;
 }
@@ -154,13 +160,13 @@ main{
 .console_inactive{
     opacity: 0.5;
 }
+
 /* subscription */
 .hero.subscription{
     background-position: bottom;
     background-image: url("../img/it-takes-two-hero-banner-desktop.jpg");
     margin-top: 30px;
     padding-top: 50px;
-
 }
 
 /* new releases*/
@@ -171,34 +177,31 @@ main{
 
 /* PS-4 */
 #PS-4{
-    padding: 50px 0;
-    color: black;  
-}
-
-#PS-4 button{
-    color:white
+    padding: 50px 0;  
 }
 
 /* Sales */
 
 #sales-top{
     background-color: #bebcbb;
-
 }
+
 #sales-top .hero_content{
   padding: 100px 0;
 }
+
 .sale_img{
     height: 100%;
     background-image: url("../img/ps-plus-april-monthly-games-featured-image-block.png");
     background-size: cover;
 }
+
 #sales-top button{
     color: #2d64e6;
 }
+
 /* Sales-bottom */
 #sales-bottom{
-    color: black;
     margin: 40px 0;
 }
 
@@ -210,9 +213,6 @@ main{
     width: 400px;
 }
 
-#play-now button{
-    color:black;
-}
 #play-now .hero_content{
     padding: 70px 0;
 }
@@ -220,7 +220,6 @@ main{
 /* Social */
 #social{
     padding: 50px 0;
-    color: black;
 }
 
 .my_container_small{
@@ -236,7 +235,6 @@ footer{
 }
 footer a{
     text-decoration: none;
-    color: white;
     font-size: 14px;
 }
 .country_icon {
