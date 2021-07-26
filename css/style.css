@@ -52,7 +52,6 @@ h6{
 .p_gray{
     color: #9c9c9c;
     font-size: 16px;
-    
 }
 /* Buttons*/
 .btn{
@@ -117,6 +116,13 @@ main{
 
 .album_game{
     margin-bottom: 40px;
+}
+
+.album_game_select{
+    border: 4px solid #0072ce;
+    border-style: double;
+
+    
 }
 /*PS-5*/
 #PS-5{
@@ -184,6 +190,7 @@ main{
 /* Sales-bottom */
 #sales-bottom{
     color: black;
+    margin: 40px 0;
 }
 
 /* PS playnow */
@@ -254,3 +261,19 @@ footer a{
     text-decoration: underline;
 }
 /* Hover effects */
+
+.btn.btn-dark:hover{
+    background-color: #4b4a4a;
+    box-shadow: inset 0px 0px 0px 2px;
+}
+
+.btn.bg_red:hover{
+    color:white;
+    background-color: #cd3d0f;
+    box-shadow: inset 0px 0px 0px 2px;
+}
+
+.album_game .card.card_radius:hover{
+    transform: translateY(-10px);
+    transition: 1s;
+}
