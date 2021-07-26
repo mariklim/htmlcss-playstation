@@ -104,9 +104,6 @@ main{
     align-items:flex-end;
 }
 
-.hero_content{
-    padding-bottom: 60px;
-}
 .hero_content img{
     max-width: 230px;
     width: 100%;
@@ -149,12 +146,14 @@ main{
     background-position: bottom;
     background-image: url("../img/it-takes-two-hero-banner-desktop.jpg");
     margin-top: 30px;
+    padding-top: 50px;
+
 }
 
 /* new releases*/
 #new_releases{
     background-color: #1f1f1f;
-    padding-bottom: 50px;
+    padding: 40px 0 50px 0;
 }
 
 /* PS-4 */
