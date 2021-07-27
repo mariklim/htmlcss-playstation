@@ -9,12 +9,13 @@ body{
     margin: 20px 0;
 }
 
-.registered{
-    font-size: 12px;
-}
 .card.card_radius{
     border-radius: 10px;
     overflow: hidden;
+}
+
+.registered{
+    font-size: 12px;
 }
  /* BG Colors */
  .bg_white{
@@ -33,28 +34,20 @@ body{
 }
  
  /* Font's Colors*/
- .navbar-light,
- .navbar-nav,
- .nav-link,
+ .navbar-light .navbar-nav .nav-link,
  #PS-5,
  #sales-bottom,
  #PS-4,
- #play-now button,
  #social{
-    color:black;
+   color:black;
 }
-.hero,
-.hero_content h2,
-.hero_content button,
- #PS-5 button,
- #PS-4 button,
- footer a{
-    color:white;
+
+footer a{
+  color: white;
 }
 
 /* Typo */
 h2{
-    color: #1f1f1f;
     font-size: 30px;
     margin: 20px 0;
     font-weight: 600;
@@ -69,11 +62,6 @@ h6{
     margin: 40px 0;
 }
 
-
-.p_gray{
-    color: #9c9c9c;
-    font-size: 16px;
-}
 /* Buttons*/
 .btn{
     border-radius: 20px;
@@ -83,11 +71,7 @@ h6{
     border: 0;
     background-color: transparent;
 }
-
-#sales-top button{
-    color: #2d64e6;
-}
-
+/* border X btn */
 .btn.btn-dark{
     border: 2px solid #212529;
 }
@@ -103,10 +87,6 @@ h6{
 .btn.bg_white{
     border: 2px solid white;
 }
-
-
-
-
 
 /* Header */
 
@@ -130,8 +110,6 @@ header{
     width: 10px;
     vertical-align: middle;
 }
-
-
 
 /* Main*/
 main{
@@ -297,13 +275,13 @@ footer a{
 
 .btn.bg_red:hover{
     background-color: #cd3d0f;
-    box-shadow: inset 0px 0px 0px 2px;
+    box-shadow: inset 0px 0px 0px 2px black;
 }
 #PS-5 button:hover{
     box-shadow: inset 0px 0px 0px 2px;
     color: white;
 }
-.btn_sales:hover{
+.btn.btn.bg_blue:hover{
     box-shadow: inset 0px 0px 0px 2px;
     color: white;
 }
