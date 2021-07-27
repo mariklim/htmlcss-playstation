@@ -39,7 +39,7 @@ body{
  #sales-bottom,
  #PS-4,
  #social{
-   color:black;
+   color:#1f1f1f;
 }
 
 footer a{
@@ -291,15 +291,17 @@ footer a{
 #play-now button:hover{
     box-shadow: inset 0px 0px 0px 2px;
 }
-
-.album_game .card.card_radius:hover{
-    transform: translateY(-10px);
+.album_game .card.card_radius{
     transition: 1s;
 }
-
+.album_game .card.card_radius:hover{
+    transform:translateY(-10px);
+}
+.console_inactive{
+    transition: 1s;
+}
 .console_inactive:hover{
     opacity: 1;
-    transition: 1s;
 }
 
 .footer_links li a:hover{
@@ -307,5 +309,9 @@ footer a{
 }
 
 .country_icon:hover{
+    color:currentColor;
+}
+
+.copyright span a:hover{
     color:currentColor;
 }
